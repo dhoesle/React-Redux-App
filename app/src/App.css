@@ -1,7 +1,10 @@
-.App {
-  text-align: center;
-}
 
+body {
+  background-image: url('https://imagez.tmz.com/image/47/4by3/2020/01/03/473c6a4e213f4f649489ff1e47f75bc0_md.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 170%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +38,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App {
+  margin-top: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color:red;
+  
+}
+.Quote  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Quote h3{
+text-align: center;
+}
+.Quote button {
+  margin-top: 1rem;
+}
+h1 {
+  color: lightblue;
 }

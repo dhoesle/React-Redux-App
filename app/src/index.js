@@ -20,7 +20,7 @@ let store = createStore(appReducer, applyMiddleware(logger, thunk))
 function App() {
   return (
     <div className="App">
-      <h1>Kanye West Quote Generator</h1>
+      <h1>The Kanye West Quote Generator</h1>
       <Quote />
       
     </div>

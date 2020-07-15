@@ -13,8 +13,9 @@ const Quote = ({ getQuote, quote, isFetching, error }) => {
     }
 
     return (
-        <div>
-            <h3>{quote}</h3>
+        <div className='Quote'>
+            <h3>"{quote}"<br></br>-Kanye West</h3>
+
             <button onClick={getQuote}>One more maybe?</button>        
         </div>
     )
