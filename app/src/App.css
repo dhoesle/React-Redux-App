@@ -1,9 +1,9 @@
 
-body {
+html {
   background-image: url('https://imagez.tmz.com/image/47/4by3/2020/01/03/473c6a4e213f4f649489ff1e47f75bc0_md.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 100% 170%;
+  background-size: 100% 240%;
 }
 .App-logo {
   height: 40vmin;
@@ -40,12 +40,15 @@ body {
   }
 }
 .App {
-  margin-top: 40vh;
+  margin-top: 20vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color:red;
+  color:white;
+  height: 18rem;
+  
+  
   
 }
 .Quote  {
@@ -55,11 +58,35 @@ body {
   flex-direction: column;
 }
 .Quote h3{
-text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+  font-size: 3rem;
+  width: 75vw;
+  height: 1rem;
+  margin-top: 5rem;
+  animation: fadein 2s;
+  color: black;
+  -webkit-text-stroke: .009px white;
+  
 }
-.Quote button {
-  margin-top: 1rem;
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
+
+.Button button {
+  padding: 1.5rem;
+  color: #6D98BA;
+  background-color: #42486A;
+  font-size: 2rem;
+  font-family: 'Kaushan Script', cursive;
+  border-radius: 1rem;
+}
+
 h1 {
-  color: lightblue;
+  color: #42486A;
+  font-size: 4rem;
+  margin-bottom: 20rem;
+  font-family: 'Kaushan Script', cursive;
 }
